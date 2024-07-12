@@ -6,6 +6,11 @@
 .pnp.js
 .yarn/install-state.gz
 
+# Ignore all SWC binaries
+**/swc-*/next-swc.*
+# Ignore node_modules completely (recommended)
+node_modules/
+
 # testing
 /coverage
 
